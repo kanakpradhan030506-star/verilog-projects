@@ -1,0 +1,23 @@
+*** SPICE deck for cell commondrainampr_1{lay} from library design
+*** Created on Mon Apr 27, 2026 12:48:43
+*** Last revised on Mon Apr 27, 2026 13:18:21
+*** Written on Mon Apr 27, 2026 13:18:33 by Electric VLSI Design System, version 9.08
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** TOP LEVEL CELL: commondrainampr_1{lay}
+Mnmos_0 vout vin vdd 0 NMOS L=1.2U W=1.2U AS=4.74P AD=3.9P PS=15.8U PD=13U
+Mnmos_1 0 vb vout 0 NMOS L=0.8U W=4U AS=3.9P AD=7.54P PS=13U PD=23.8U
+
+* Spice Code nodes in cell cell 'commondrainampr_1{lay}'
+vdd vdd 0 DC 5
+vb vb 0 DC 1
+*vin vin 0 ac sin(4 1 1k 0 0 0 50)
+Vvin vin 0 AC 1
+*vin vin 0 dc 5
+.ac dec 100 100 10g
+*.dc vin 0 5 .1
+*.tran 0 5m
+.include "C:\Users\Kanak Pradhan\OneDrive\Desktop\verilog_project\C5_models\C5_models.txt"
+*.options post
+.END

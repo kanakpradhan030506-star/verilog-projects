@@ -1,0 +1,10 @@
+
+$ CELL nand_1{sch} FROM LIBRARY noname
+$ CELL CREATED ON Tue Apr 28, 2026 14:53:39
+$ VERSION 1
+$ LAST REVISED Tue Apr 28, 2026 15:01:37
+$ SILOS netlist written by Electric VLSI Design System, version 9.08
+$ WRITTEN ON Tue Apr 28, 2026 15:02:09
+
+pmos@0 .PMOS pmos@0.g pmos@0.s pmos@0.d
+pmos@1 .PMOS pmos@1.g pmos@1.s pmos@1.d
