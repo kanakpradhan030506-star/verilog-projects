@@ -1,0 +1,33 @@
+# Program Counter Using Verilog HDL
+
+## Overview
+
+This project implements a 8-bit Program Counter (PC) using Verilog HDL. The Program Counter stores the address of the next instruction to be executed in a processor.
+
+## Features
+
+* 8-bit counter
+* Asynchronous reset
+* Increments on every positive clock edge
+* Simple and beginner-friendly design
+
+## Files
+
+* design/program_counter.v
+* testbench/tb_program_counter.v
+* waveform/program_counter.vcd
+
+## Working
+
+When reset is asserted, the Program Counter becomes 0. After reset is deasserted, the counter increments by 1 on every positive clock edge.
+
+## Applications
+
+* CPU Design
+* Instruction Fetch Unit
+* Digital Systems
+* VLSI and FPGA Projects
+
+## Author
+
+Kanak Pradhan
