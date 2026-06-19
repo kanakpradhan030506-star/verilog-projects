@@ -9,7 +9,7 @@ module riscv_decoder_i_tb;
   initial begin 
     $dumpfile("riscv_decoder_i.vcd");
     $dumpvars(0 , riscv_decoder_i_tb);
-    instruction = 32'b0000000000100010001000100100100;
+    instruction = 32'b0000000000100010001000100010011;
     #10;
     instruction = 32'b0000000000110010111100101101101;
     #10;
